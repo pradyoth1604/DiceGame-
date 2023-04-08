@@ -1,6 +1,6 @@
 var randomnumber1=Math.floor(Math.random()*6)+1;
 
-var randomDiceImageSrc1 = "C:\\Users\\91951\\OneDrive\\Desktop\\Web Dev\\Dice Game\\images\\dice" + randomnumber1 + ".png";
+var randomDiceImageSrc1 = "images\\dice" + randomnumber1 + ".png";
 
 var image1 =document.querySelectorAll("img")[0];
 
@@ -8,7 +8,7 @@ image1.setAttribute("src",randomDiceImageSrc1);
  
 var randomnumber2=Math.floor(Math.random()*6)+1;
 
-var randomDiceImageSrc2 ="C:\\Users\\91951\\OneDrive\\Desktop\\Web Dev\\Dice Game\\images\\dice" + randomnumber2 + ".png";
+var randomDiceImageSrc2 ="images\\dice" + randomnumber2 + ".png";
 var image2=document.querySelectorAll("img")[1];
 
 image2.setAttribute("src",randomDiceImageSrc2);
